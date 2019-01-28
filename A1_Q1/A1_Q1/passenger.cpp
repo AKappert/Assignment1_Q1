@@ -24,6 +24,15 @@ Passenger::Passenger(int id, string name, string address, string phone, Date dob
 	passDOB = dob;
 }
 
+void Passenger::setPassenger(int id, string name, string address, string phone, Date dob)
+{
+	passID = id;
+	passName = name;
+	passAddress = address;
+	passPhone = phone;
+	passDOB = dob;
+}
+
 void Passenger::setPassengerID(int id)
 {
 	passID = id;

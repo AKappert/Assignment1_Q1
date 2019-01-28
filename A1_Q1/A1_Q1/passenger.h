@@ -9,6 +9,7 @@ class Passenger
 public:
 	Passenger();
 	Passenger(int, string, string, string, Date);
+	void setPassenger(int, string, string, string, Date);
 	void setPassengerID(int);
 	void setPassengerName(string);
 	void setPassengerAddress(string);
